@@ -1,3 +1,18 @@
 /* Estilos de presentacion */
 
-/* media query -> mobile 380 - tablet 270 - desktop 1200  */
+
+
+/* media query -> mobile 380 - tablet 580 - desktop 1200
+min -> desde aca
+max -> hast aca */
+@media screen (min-width:380px) and (max-width:580){
+
+}
+
+@media screen (min-width:581px) and (max-width:1200){
+
+}
+
+@media screen (min-width:1201){
+
+}
