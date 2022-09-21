@@ -7,10 +7,9 @@
     height: auto; /* que se adapte al alto -> 100%(otra opcion) */
 }
 
-
 .contendor-primera-seccion {
-    width: 50%;
-    padding: 2rem;
+    width: 75%;
+    padding: 4rem 2rem;
 }
 
 .contendor-primera-seccion h1{
