@@ -8,6 +8,20 @@
 }
 
 
+.contendor-primera-seccion {
+    width: 50%;
+    padding: 2rem;
+}
+
+.contendor-primera-seccion h1{
+    color: #FFFAF4;
+}
+.contendor-primera-seccion p{
+
+}
+
+
+
 /* media query -> mobile 380 - tablet 580 - desktop 1200
 min -> desde aca
 max -> hast aca */
