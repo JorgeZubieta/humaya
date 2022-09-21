@@ -7,15 +7,15 @@
     height: auto; /* que se adapte al alto -> 100%(otra opcion) */
 }
 
-.contendor-primera-seccion {
+.contenedor-primera-seccion {
     width: 75%;
     padding: 4rem 2rem;
 }
 
-.contendor-primera-seccion h1{
+.contenedor-primera-seccion h1{
     color: #FFFAF4;
 }
-.contendor-primera-seccion p{
+.contenedor-primera-seccion p{
 
 }
 
@@ -24,14 +24,35 @@
 /* media query -> mobile 380 - tablet 580 - desktop 1200
 min -> desde aca
 max -> hast aca */
-@media screen and (min-width:380px) and (max-width:580){
+@media screen and (min-width:380px) and (max-width:580px){
 
 }
 
-@media screen and (min-width:581px) and (max-width:1200){
+@media screen and (min-width:581px) and (max-width:1200px){
 
 }
 
-@media screen and (min-width:1201){
+@media screen and (min-width:1201px){
 /* si uso una clase que y sta -> solo la llamo y agreggo la diferencia*/
+    .contenedor-primera-seccion {
+        width: 25%;
+        padding: 4rem 2rem;
+
+        /* alicamos transparencia con rgba : alfa -> 0.25 */
+        background-color: rgba(0,0,0, 0.5);
+
+        margin: 0 2rem;
+    }
+
+    section {
+        display: flex;
+        justify-content: flex-end; 
+        height: auto;
+        padding: 2rem;
+    }
+    
+    .contenedor-primera-seccion p {
+        /* aplique herencia a p que se plicara a partir de 1201px */
+        color: #FFFAF4;
+    }
 }
