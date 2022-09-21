@@ -35,7 +35,7 @@ max -> hast aca */
 @media screen and (min-width:1201px){
 /* si uso una clase que y sta -> solo la llamo y agreggo la diferencia*/
     .contenedor-primera-seccion {
-        width: 25%;
+        width: 30%;
         padding: 4rem 2rem;
 
         /* alicamos transparencia con rgba : alfa -> 0.25 */
@@ -43,8 +43,14 @@ max -> hast aca */
 
         margin: 0 2rem;
     }
+    .contenedor-primera-seccion button{
+        /* al ser button inline -> lo convierto a bloque para qu tenag comportamiento de caja */
+        display: block;
+        margin: auto; /* aplica a los lados */
+        margin-top: 3rem !important; /* no se veia el cambio porque estaba siendo pisad por otra clasequeri */
+    }
 
-    section {
+    section{
         display: flex;
         justify-content: flex-end; 
         height: auto;
