@@ -1,5 +1,7 @@
 /* Estilos de presentacion */
-
+#fondoDePortada{
+    background-image: url(./img/central/imagenCentral.png);
+}
 
 
 /* media query -> mobile 380 - tablet 580 - desktop 1200
