@@ -1,6 +1,10 @@
 /* Estilos de presentacion */
 #fondoDePortada{
     background-image: url(./img/central/imagenCentral.png);
+    /* agregamos las caracteristicas para este fondo */
+    background-repeat: no-repeat;/* que no se repita */
+    background-size: cover; /* que cubra todo */
+    height: auto; /* que se adapte al alto -> 100%(otra opcion) */
 }
 
 
