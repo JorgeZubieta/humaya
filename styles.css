@@ -29,7 +29,34 @@ max -> hast aca */
 }
 
 @media screen and (min-width:581px) and (max-width:1200px){
+/* si uso una clase que y sta -> solo la llamo y agreggo la diferencia*/
+    .contenedor-primera-seccion {
+        width: 30%;
+        padding: 4rem 2rem;
 
+        /* alicamos transparencia con rgba : alfa -> 0.25 */
+        background-color: rgba(0,0,0, 0.5);
+
+        margin: 0 2rem;
+    }
+    .contenedor-primera-seccion button{
+        /* al ser button inline -> lo convierto a bloque para qu tenag comportamiento de caja */
+        display: block;
+        margin: auto; /* aplica a los lados */
+        margin-top: 3rem !important; /* no se veia el cambio porque estaba siendo pisad por otra clasequeri */
+    }
+
+    section{
+        display: flex;
+        justify-content: flex-end; 
+        height: auto;
+        padding: 2rem;
+    }
+    
+    .contenedor-primera-seccion p {
+        /* aplique herencia a p que se plicara a partir de 1201px */
+        color: #FFFAF4;
+    }
 }
 
 @media screen and (min-width:1201px){
@@ -46,7 +73,8 @@ max -> hast aca */
     .contenedor-primera-seccion button{
         /* al ser button inline -> lo convierto a bloque para qu tenag comportamiento de caja */
         display: block;
-        margin: auto; /* aplica a los lados */
+        margin: auto;
+        /* aplica a los lados */
         margin-top: 3rem !important; /* no se veia el cambio porque estaba siendo pisad por otra clasequeri */
     }
 
